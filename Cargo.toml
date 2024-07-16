@@ -1,0 +1,21 @@
+[package]
+name = "yt-dl-visualizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+derive_more = "0.99.18"
+dotenvy = "0.15.7"
+eframe = "0.28.1"
+egui = "0.28.1"
+egui-video = { path = "../egui-video" }
+egui_extras = { version = "0.28.1", features = ["http", "image"] }
+futures-util = "0.3.30"
+google-youtube3 = "5.0.5"
+image = { version = "0.25.1", features = ["jpeg"] }
+rfd = "0.14.1"
+rustube = "0.6.0"
+rusty_ytdl = "0.7.3"
+serde = "1.0.204"
+serde_json = "1.0.120"
+tokio = { version = "1.38.0", features = ["full"] }
